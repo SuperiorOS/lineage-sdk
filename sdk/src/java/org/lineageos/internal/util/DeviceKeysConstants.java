@@ -29,7 +29,8 @@ public class DeviceKeysConstants {
         PLAY_PAUSE_MUSIC,
         SCREENSHOT,
         PARTIAL_SCREENSHOT,
-        VOLUME_PANEL;
+        VOLUME_PANEL,
+        CYCLE_RINGER_MODE;
 
         public static Action fromIntSafe(int id) {
             if (id < NOTHING.ordinal() || id > Action.values().length) {

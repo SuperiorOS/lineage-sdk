@@ -1088,10 +1088,11 @@ public final class LineageSettings {
          * 8 - Last app
          * 9 - Toggle split screen
          * 10 - Kill foreground app
-         * 11 - Play/pause music
+         * 11 - Play/pause music playback
          * 12 - Take screenshot
          * 13 - Take partial screenshot
          * 14 - Show Volume Panel
+         * 15 - Cycle ringer mode
          */
         public static final String KEY_HOME_LONG_PRESS_ACTION = "key_home_long_press_action";
 
@@ -1204,6 +1205,7 @@ public final class LineageSettings {
 
         /**
          * Action to perform when the assistant (search) key is long-pressed. (Default is 4)
+         * (Default can be configured via config_longPressOnAssistBehavior)
          * (See KEY_HOME_LONG_PRESS_ACTION for valid values)
          */
         public static final String KEY_ASSIST_LONG_PRESS_ACTION = "key_assist_long_press_action";
@@ -1214,6 +1216,7 @@ public final class LineageSettings {
 
         /**
          * Action to perform when the app switch key is pressed. (Default is 2)
+         * (Default can be configured via config_pressOnAssistBehavior)
          * (See KEY_HOME_LONG_PRESS_ACTION for valid values)
          */
         public static final String KEY_APP_SWITCH_ACTION = "key_app_switch_action";
